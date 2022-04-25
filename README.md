@@ -1,28 +1,30 @@
----
-title: ExpressJS
-description: An ExpressJS server
-tags:
-  - express
-  - typescript
----
+# hello-express
 
-# ExpressJS Example
+A server that serves a webpage, its resources, and some data
 
-This example starts an [ExpressJS](https://expressjs.com/) server.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fexpressjs)
+## Your Project
 
-## ✨ Features
+On the front-end,
 
-- Express
-- TypeScript
+- Edit `views/index.html` to change the content of the webpage
+- `public/client.js` is the javacript that runs when you load the webpage
+- `public/style.css` is the styles for `views/index.html`
+- Drag in `assets`, like images or music, to add them to your project
 
-## 💁‍♀️ How to use
+On the back-end,
 
-- Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the development server `railway run yarn dev`
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-## 📝 Notes
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
-The server started simply returns a `Hello: "World"` payload in JSON. The server code is located in `src/index.js`.
+
+## Made by [Glitch](https://glitch.com/)
+
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
+
+( ᵔ ᴥ ᵔ )
